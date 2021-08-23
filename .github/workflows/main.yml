@@ -1,1 +1,53 @@
+name: scheduled
 
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+    
+jobs:
+  update_package:
+    runs-on: ${{ matrix.config.os }}
+    
+    name: ${{ matrix.config.os }} (${{ matrix.config.r }})
+    
+    strategy:
+    fail-fast: false
+      matrix:
+        config:
+          - {os: macos-11.5, r: 'release'}
+      
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Set up R ${{ matrix.config.r }}
+        uses: r-lib/actions/setup-r@master
+        with:
+          r-version: ${{ matrix.config.r }}
+          
+      - name: Install dependencies
+        run: |
+          install.packages('remotes')
+          install.packages('stringr')
+          install.packages('readr')
+          install.packages('here')
+          install.packages("tibble")
+          install.packages('lubridate')
+          install.packages('EML')
+          remotes::install_github('EDIorg/EDIutils', update=FALSE, ask=FALSE)
+        shell: Rscript {0}
+          
+      - name: Publish data to EDI
+        env:
+            EDI_ENV: "staging"
+            EDI_USER: ${{secrets.EDI_USERNAME}}
+            EDI_PASS: ${{secrets.EDI_PASSWORD}}
+        run: |
+          source("R/publish_to_EDI.R")
+        shell: Rscript {0}
+
+      - name: Session info
+        run: |
+          options(width = 100)
+          pkgs <- installed.packages()[, "Package"]
+          sessioninfo::session_info(pkgs, include_base = TRUE)
+        shell: Rscript {0}
