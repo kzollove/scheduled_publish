@@ -1,0 +1,2108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 ../../../../eml/xsd/eml.xsd"
+ xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2"
+ xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" packageId="edi.425.1" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=kzollovenecek,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Effects of mangrove encroachment on tidal wetland plants and epifauna: 2012-2020</title>
+    <creator>
+      <individualName>
+        <givenName>Anna</givenName>
+        <givenName>R</givenName>
+        <surName>Armitage</surName>
+      </individualName>
+      <organizationName>Texas A&amp;M University at Galveston</organizationName>
+      <electronicMailAddress>armitaga@tamug.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-1563-8026</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Carolyn</givenName>
+        <givenName>A</givenName>
+        <surName>Weaver</surName>
+      </individualName>
+      <organizationName>Texas A&amp;M University - Corpus Christi</organizationName>
+      <electronicMailAddress>Carolyn.Weaver@tamucc.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-1447-6371</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Ashley</givenName>
+        <givenName>A</givenName>
+        <surName>Whitt</surName>
+      </individualName>
+      <organizationName>Texas A&amp;M University at Galveston</organizationName>
+      <electronicMailAddress>aaw.whitt@gmail.com</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-4130-8031</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Steven</givenName>
+        <givenName>C</givenName>
+        <surName>Pennings</surName>
+      </individualName>
+      <organizationName>University of Houston</organizationName>
+      <electronicMailAddress>scpennin@Central.UH.EDU</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-4757-7125</userId>
+    </creator>
+    <pubDate>2021-08-18</pubDate>
+    <abstract>
+      <para>
+    Woody encroachment is occurring in many marsh-mangrove ecotones
+    across the globe, with multiple drivers contributing to an increase
+    in mangrove cover. As a result, marsh plant species are often
+    displaced, resulting in a striking regime shift from grass and
+    forb-dominated habitats to taller, woody vegetation. Our goal was to
+    quantify the bottom-up effects of mangrove woody encroachment into
+    coastal wetlands on associated plant and epifaunal assemblages. In
+    2012, we established several large (&gt; 20 ha) survey areas at
+    tidal wetland sites with or without black mangroves (Avicennia
+    germinans) on the Texas (USA) coast in the Gulf of Mexico, an area
+    highly susceptible to mangrove encroachment. Starting in 2012, we
+    annually recorded vascular plant cover and diversity and recorded
+    snail (Littoraria irrorata) and fiddler crab (Uca spp.) density
+    along transects perpendicular to the shoreline. Marsh plant species
+    richness was 50% lower at sites with mangroves, and some species,
+    such as Sarcocornia spp. and Distichlis spicata, were relatively
+    rare or absent from sites with mangroves. The wetland plant
+    communities at these sites were relatively unaffected by Hurricane
+    Harvey (August 2017). Epifaunal snails and crabs were common at all
+    sites, with abundances that varied over time. Our results indicate
+    that coastal wetlands dominated by mangroves support different and
+    lower diversity plant assemblages than marsh-dominated areas. These
+    results were largely consistent with the results of a previous
+    manipulative experiment in the same area. Therefore, as woody
+    encroachment continues and mangrove cover gradually increases, this
+    change may lead to complex bottom-up effects on a range of ecosystem
+    processes and services.
+  </para>
+    </abstract>
+    <keywordSet>
+      <keyword>Avicennia germinans</keyword>
+      <keyword>Spartina alterniflora</keyword>
+      <keyword>Batis maritima</keyword>
+      <keyword>Diversity</keyword>
+      <keyword>Woody encroachment</keyword>
+      <keyword>Distichlis spicata</keyword>
+      <keyword>Mangrove</keyword>
+      <keyword>Salt marsh</keyword>
+      <keyword>Gulf of Mexico</keyword>
+      <keyword>Texas Coastal Bend</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Tidal wetlands near Port Aransas, TX. The study encompasses areas of black mangrove (Avicennia germinans) and marsh (Batis maritima, Salicornia spp., Spartina alterniflora) cover.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-97.186557</westBoundingCoordinate>
+          <eastBoundingCoordinate>-96.785936</eastBoundingCoordinate>
+          <northBoundingCoordinate>28.250487</northBoundingCoordinate>
+          <southBoundingCoordinate>27.679642</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2012-09-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2020-11-30</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <commonName>animals</commonName>
+          <taxonId provider="https://itis.gov">202423</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Bilateria</taxonRankValue>
+            <taxonId provider="https://itis.gov">914154</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Protostomia</taxonRankValue>
+              <taxonId provider="https://itis.gov">914155</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superphylum</taxonRankName>
+                <taxonRankValue>Lophozoa</taxonRankValue>
+                <taxonId provider="https://itis.gov">914159</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>phylum</taxonRankName>
+                  <taxonRankValue>Mollusca</taxonRankValue>
+                  <commonName>molluscs</commonName>
+                  <commonName>mollusks</commonName>
+                  <taxonId provider="https://itis.gov">69458</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>class</taxonRankName>
+                    <taxonRankValue>Gastropoda</taxonRankValue>
+                    <commonName>gastropods</commonName>
+                    <commonName>slugs</commonName>
+                    <commonName>snails</commonName>
+                    <taxonId provider="https://itis.gov">69459</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>order</taxonRankName>
+                      <taxonRankValue>Neotaenioglossa</taxonRankValue>
+                      <taxonId provider="https://itis.gov">566851</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>family</taxonRankName>
+                        <taxonRankValue>Littorinidae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">70394</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>genus</taxonRankName>
+                          <taxonRankValue>Littoraria</taxonRankValue>
+                          <taxonId provider="https://itis.gov">567035</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>species</taxonRankName>
+                            <taxonRankValue>Littoraria irrorata</taxonRankValue>
+                            <commonName>marsh periwinkle</commonName>
+                            <taxonId provider="https://itis.gov">567804</taxonId>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <commonName>animals</commonName>
+          <taxonId provider="https://itis.gov">202423</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Bilateria</taxonRankValue>
+            <taxonId provider="https://itis.gov">914154</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Protostomia</taxonRankValue>
+              <taxonId provider="https://itis.gov">914155</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superphylum</taxonRankName>
+                <taxonRankValue>Ecdysozoa</taxonRankValue>
+                <taxonId provider="https://itis.gov">914158</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>phylum</taxonRankName>
+                  <taxonRankValue>Arthropoda</taxonRankValue>
+                  <commonName>arthropods</commonName>
+                  <taxonId provider="https://itis.gov">82696</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subphylum</taxonRankName>
+                    <taxonRankValue>Crustacea</taxonRankValue>
+                    <commonName>crustaceans</commonName>
+                    <taxonId provider="https://itis.gov">83677</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Malacostraca</taxonRankValue>
+                      <taxonId provider="https://itis.gov">89787</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>subclass</taxonRankName>
+                        <taxonRankValue>Eumalacostraca</taxonRankValue>
+                        <taxonId provider="https://itis.gov">89801</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>superorder</taxonRankName>
+                          <taxonRankValue>Eucarida</taxonRankValue>
+                          <taxonId provider="https://itis.gov">95495</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>order</taxonRankName>
+                            <taxonRankValue>Decapoda</taxonRankValue>
+                            <commonName>crabs</commonName>
+                            <commonName>crayfishes</commonName>
+                            <commonName>lobsters</commonName>
+                            <commonName>prawns</commonName>
+                            <commonName>shrimp</commonName>
+                            <taxonId provider="https://itis.gov">95599</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>suborder</taxonRankName>
+                              <taxonRankValue>Pleocyemata</taxonRankValue>
+                              <taxonId provider="https://itis.gov">96105</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>infraorder</taxonRankName>
+                                <taxonRankValue>Brachyura</taxonRankValue>
+                                <commonName>short-tailed crabs</commonName>
+                                <commonName>true crabs</commonName>
+                                <taxonId provider="https://itis.gov">98276</taxonId>
+                                <taxonomicClassification>
+                                  <taxonRankName>superfamily</taxonRankName>
+                                  <taxonRankValue>Ocypodoidea</taxonRankValue>
+                                  <taxonId provider="https://itis.gov">206963</taxonId>
+                                  <taxonomicClassification>
+                                    <taxonRankName>family</taxonRankName>
+                                    <taxonRankValue>Ocypodidae</taxonRankValue>
+                                    <commonName>fiddler crabs</commonName>
+                                    <commonName>ghost crabs</commonName>
+                                    <taxonId provider="https://itis.gov">99080</taxonId>
+                                    <taxonomicClassification>
+                                      <taxonRankName>genus</taxonRankName>
+                                      <taxonRankValue>Uca</taxonRankValue>
+                                      <taxonId provider="https://itis.gov">99084</taxonId>
+                                    </taxonomicClassification>
+                                  </taxonomicClassification>
+                                </taxonomicClassification>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Asteranae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846535</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Lamiales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">31632</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Acanthaceae</taxonRankValue>
+                            <taxonId provider="https://itis.gov">34350</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Avicennia</taxonRankValue>
+                              <commonName>black mangrove</commonName>
+                              <commonName>mangrove</commonName>
+                              <taxonId provider="https://itis.gov">32136</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Avicennia germinans</taxonRankValue>
+                                <commonName>black mangrove</commonName>
+                                <taxonId provider="https://itis.gov">32137</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Lilianae</taxonRankValue>
+                        <commonName>monocots</commonName>
+                        <commonName>monocotyledons</commonName>
+                        <taxonId provider="https://itis.gov">846542</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Poales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">846620</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Poaceae</taxonRankValue>
+                            <taxonId provider="https://itis.gov">40351</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Spartina</taxonRankValue>
+                              <taxonId provider="https://itis.gov">41266</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Spartina alterniflora</taxonRankValue>
+                                <taxonId provider="https://itis.gov">41267</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Rosanae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846548</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Brassicales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">822943</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Bataceae</taxonRankValue>
+                            <taxonId provider="https://itis.gov">20840</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Batis</taxonRankValue>
+                              <commonName>turtleweed</commonName>
+                              <taxonId provider="https://itis.gov">192294</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Batis maritima</taxonRankValue>
+                                <commonName>turtleweed</commonName>
+                                <commonName>saltwort</commonName>
+                                <taxonId provider="https://itis.gov">192295</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Caryophyllanae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846539</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Caryophyllales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">19520</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Amaranthaceae</taxonRankValue>
+                            <commonName>pigweed</commonName>
+                            <taxonId provider="https://itis.gov">20714</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Sarcocornia</taxonRankValue>
+                              <commonName>swampfire</commonName>
+                              <taxonId provider="https://itis.gov">500546</taxonId>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Monanthochloe littoralis</taxonRankValue>
+          <taxonId provider="https://itis.gov">41878</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Asteranae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846535</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Solanales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">500033</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Solanaceae</taxonRankValue>
+                            <commonName>nightshades</commonName>
+                            <taxonId provider="https://itis.gov">30411</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Lycium</taxonRankValue>
+                              <commonName>desert-thorn</commonName>
+                              <commonName>wolfberry</commonName>
+                              <commonName>wolfberry species</commonName>
+                              <taxonId provider="https://itis.gov">30531</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Lycium carolinianum</taxonRankValue>
+                                <commonName>Carolina desert-thorn</commonName>
+                                <taxonId provider="https://itis.gov">30537</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Asteranae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846535</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Asterales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">35419</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Asteraceae</taxonRankValue>
+                            <commonName>sunflowers</commonName>
+                            <taxonId provider="https://itis.gov">35420</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Borrichia</taxonRankValue>
+                              <commonName>seaside tansy</commonName>
+                              <taxonId provider="https://itis.gov">35780</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Borrichia frutescens</taxonRankValue>
+                                <commonName>bushy seaside tansy</commonName>
+                                <taxonId provider="https://itis.gov">35781</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Lilianae</taxonRankValue>
+                        <commonName>monocots</commonName>
+                        <commonName>monocotyledons</commonName>
+                        <taxonId provider="https://itis.gov">846542</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Poales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">846620</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Poaceae</taxonRankValue>
+                            <taxonId provider="https://itis.gov">40351</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Distichlis</taxonRankValue>
+                              <taxonId provider="https://itis.gov">40661</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Distichlis spicata</taxonRankValue>
+                                <taxonId provider="https://itis.gov">40662</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Caryophyllanae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846539</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Caryophyllales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">19520</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Amaranthaceae</taxonRankValue>
+                            <commonName>pigweed</commonName>
+                            <taxonId provider="https://itis.gov">20714</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Suaeda</taxonRankValue>
+                              <commonName>seepweed</commonName>
+                              <taxonId provider="https://itis.gov">20659</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Suaeda linearis</taxonRankValue>
+                                <commonName>annual seepweed</commonName>
+                                <taxonId provider="https://itis.gov">20661</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Lilianae</taxonRankValue>
+                        <commonName>monocots</commonName>
+                        <commonName>monocotyledons</commonName>
+                        <taxonId provider="https://itis.gov">846542</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Poales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">846620</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Poaceae</taxonRankValue>
+                            <taxonId provider="https://itis.gov">40351</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Spartina</taxonRankValue>
+                              <taxonId provider="https://itis.gov">41266</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Spartina patens</taxonRankValue>
+                                <taxonId provider="https://itis.gov">41271</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Rosanae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846548</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Fabales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">500022</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Fabaceae</taxonRankValue>
+                            <commonName>peas</commonName>
+                            <commonName>legumes</commonName>
+                            <taxonId provider="https://itis.gov">500059</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Strophostyles</taxonRankValue>
+                              <commonName>fuzzybean</commonName>
+                              <taxonId provider="https://itis.gov">26199</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Strophostyles helvola</taxonRankValue>
+                                <commonName>amberique-bean</commonName>
+                                <commonName>annual woolly-bean</commonName>
+                                <commonName>trailing fuzzy-bean</commonName>
+                                <commonName>trailing wild bean</commonName>
+                                <taxonId provider="https://itis.gov">26200</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Asteranae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846535</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Asterales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">35419</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Asteraceae</taxonRankValue>
+                            <commonName>sunflowers</commonName>
+                            <taxonId provider="https://itis.gov">35420</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Iva</taxonRankValue>
+                              <commonName>marsh elder</commonName>
+                              <commonName>iva</commonName>
+                              <commonName>marshelder</commonName>
+                              <commonName>sumpweed</commonName>
+                              <taxonId provider="https://itis.gov">36024</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Iva frutescens</taxonRankValue>
+                                <commonName>Jesuit's bark</commonName>
+                                <taxonId provider="https://itis.gov">36025</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>ongoing</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Anna</givenName>
+        <givenName>R</givenName>
+        <surName>Armitage</surName>
+      </individualName>
+      <organizationName>Texas A&amp;M University at Galveston</organizationName>
+      <electronicMailAddress>armitaga@tamug.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-1563-8026</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>
+    We worked within the Coastal Bend region of Texas (Gulf of Mexico,
+    USA) where mangrove- and marsh-dominated areas are found in
+    relatively close proximity to each other. A set of seven survey
+    sites containing relatively large (&gt; 20 ha) expanses of emergent
+    tidal wetlands were identified in 2012. Black mangroves
+    (<emphasis>Avicennia germinans</emphasis>) comprised 77 ± 3% (mean ±
+    SE) of the emergent vegetation cover at four of the sites; mangroves
+    were not present at the remaining three sites. One additional site
+    without mangroves was added in 2013, and two additional sites (one
+    of each site type) were added in 2014, for a total of five of each
+    site type. In this area, mangroves were primarily located on or near
+    the barrier islands and sites without mangroves were on the
+    mainland. Therefore, it was not possible to spatially intersperse
+    different site types. Despite the limitations imposed by the
+    landscape distributions of mangrove stands, using a “natural
+    experiment” involving large survey areas enabled us to examine links
+    between mangrove presence and associated community assemblages at a
+    larger and more representative spatial scale than would be possible
+    using an experimental approach.
+  </para>
+          <para>
+    To characterize the tidal wetland at each site, we established a
+    linear transect perpendicular to the shoreline, extending from the
+    vegetation-water interface to the upper littoral zone. The upland
+    transition was clearly delineated by a distinct change from salt
+    marsh vegetation species to either salt pan (non-vegetated, high
+    elevation) or upland vegetation species. Since each site had a
+    unique shoreline topography, the length of the shoreline-upland
+    transect differed among sites, ranging from 70-180 m. Five stations
+    were established along each transect: one at the low elevation
+    vegetation (<emphasis>Spartina alterniflora</emphasis>) edge, and
+    one at the upland wetland vegetation boundary, with three additional
+    stations evenly spaced between the upper and lower stations. Using a
+    Lasermark LM800 GR surveyor, elevation was measured relative to the
+    lowest tidal extent of <emphasis>Spartina alterniflora</emphasis>,
+    which was assumed to occur at a similar elevation across sites in
+    this region.
+  </para>
+          <para>
+    We surveyed epifauna and vegetation at a subset of sites in the fall
+    in 2012, 2013, 2014, 2015, 2017, and 2020 by placing a
+    1-m<superscript>2</superscript> quadrat every 10-50 m along each
+    transect (the total number of quadrats varied among dates due to
+    logistical constraints). We recorded which marsh and mangrove plant
+    species were present in each quadrat and determined species richness
+    in each plots. Based on field observations or plot photos, we
+    recorded two different types of plant cover. (1) Canopy Cover (CC)
+    was a visual estimate of the area of influence of the plant. This
+    cover value represents the vertical projection of the outermost
+    perimeter of the natural spread of foliage of plants; CC includes
+    area under potential influence of the roots and ignores gaps in the
+    canopy. For any given plot, the total canopy cover can exceed 100%
+    because plants can overlap. (2) Absolute cover (AC) was the
+    birds-eye view of each plot, where total cover (including bare
+    space) summed to 100%. Pneumatophores were excluded from absolute
+    cover.
+  </para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Collaborative Research: Do mangroves provide better coastal protection than salt marshes? A Hurricane Harvey case study from Port Aransas, Texas USA</title>
+      <personnel>
+        <individualName>
+          <givenName>Anna</givenName>
+          <givenName>R</givenName>
+          <surName>Armitage</surName>
+        </individualName>
+        <organizationName>Texas A&amp;M University at Galveston</organizationName>
+        <electronicMailAddress>armitaga@tamug.edu</electronicMailAddress>
+        <userId directory="https://orcid.org">https://orcid.org/0000-0003-1563-8026</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>National Science Foundation DEB-1761414</funding>
+      <relatedProject>
+        <title>Collaborative Research: Do mangroves provide better coastal protection than salt marshes? A Hurricane Harvey case study from Port Aransas, Texas USA</title>
+        <personnel>
+          <individualName>
+            <givenName>Steven</givenName>
+            <givenName>C</givenName>
+            <surName>Pennings</surName>
+          </individualName>
+          <organizationName>University of Houston</organizationName>
+          <electronicMailAddress>scpennin@Central.UH.EDU</electronicMailAddress>
+          <userId directory="https://orcid.org">https://orcid.org/0000-0003-4757-7125</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>National Science Foundation DEB-1761428</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>Mangroves are invading Texas salt marshes: Does it matter?</title>
+        <personnel>
+          <individualName>
+            <givenName>Steven</givenName>
+            <givenName>C</givenName>
+            <surName>Pennings</surName>
+          </individualName>
+          <organizationName>University of Houston</organizationName>
+          <electronicMailAddress>scpennin@Central.UH.EDU</electronicMailAddress>
+          <userId directory="https://orcid.org">https://orcid.org/0000-0003-4757-7125</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>Texas Sea Grant College Program NA10OAR4170099</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>Mangroves are invading Texas salt marshes: What are the consequences?</title>
+        <personnel>
+          <individualName>
+            <givenName>Steven</givenName>
+            <givenName>C</givenName>
+            <surName>Pennings</surName>
+          </individualName>
+          <organizationName>University of Houston</organizationName>
+          <electronicMailAddress>scpennin@Central.UH.EDU</electronicMailAddress>
+          <userId directory="https://orcid.org">https://orcid.org/0000-0003-4757-7125</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>Texas Sea Grant College Program NA10OAR4170099</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>The effects of shifting coastal wetland plant communities on the restoration of food webs that support coastal living resources</title>
+        <personnel>
+          <individualName>
+            <givenName>Anna</givenName>
+            <givenName>R</givenName>
+            <surName>Armitage</surName>
+          </individualName>
+          <organizationName>Texas A&amp;M University at Galveston</organizationName>
+          <electronicMailAddress>armitaga@tamug.edu</electronicMailAddress>
+          <userId directory="https://orcid.org">https://orcid.org/0000-0003-1563-8026</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>Texas Sea Grant College Program NA18OAR4170088</funding>
+      </relatedProject>
+    </project>
+    <dataTable>
+      <entityName>Plant responses to mangrove encroachment</entityName>
+      <entityDescription>Plant data show that coastal wetlands dominated by mangroves support different and lower diversity plant assemblages than marsh-dominated areas.</entityDescription>
+      <physical>
+        <objectName>PAAG_surveydata_2012-2020.csv</objectName>
+        <size unit="bytes">79762</size>
+        <authentication method="MD5">21ebcdd1a4274834b5e0142d0ac379c8</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">
+              https://uwmadison.box.com/shared/static/gmu0iosfqaaqh2zx9g9zjv0xcj3mtsxc.csv
+            </url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Site ID</attributeName>
+          <attributeDefinition>Site ID code</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>S1</code>
+                    <definition>Survey 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S10</code>
+                    <definition>Survey 10</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S2</code>
+                    <definition>Survey 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S3</code>
+                    <definition>Survey 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S4</code>
+                    <definition>Survey 4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S5</code>
+                    <definition>Survey 5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S6</code>
+                    <definition>Survey 6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S7</code>
+                    <definition>Survey 7</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S8</code>
+                    <definition>Survey 8</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S9</code>
+                    <definition>Survey 9</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site type (Marsh/mix)</attributeName>
+          <attributeDefinition>Designation of the site as with or without mangroves</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Marsh</code>
+                    <definition>no mangroves present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Mix</code>
+                    <definition>mangroves present</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Sampling Event</attributeName>
+          <attributeDefinition>Sampling was conducted 1/year in the fall. Unit of SeasonYear</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sampling was conducted 1/year in the fall. Unit of SeasonYear</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date of sampling</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>mm/dd/yyyy</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Distance from water's edge (m)</attributeName>
+          <attributeDefinition>Distance of each plot from the low elevation water-vegetation interface</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Distance of each plot from the low elevation water-vegetation interface</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Water Depth (cm)</attributeName>
+          <attributeDefinition>Water depth in the center of each 1m x 1m sampling quadrat; recorded in a subset of plots (ND if no depth was recorded)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Water depth in the center of each 1m x 1m sampling quadrat; recorded in a subset of plots (ND if no depth was recorded)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Crab Burrows (#)</attributeName>
+          <attributeDefinition>Number of fiddler crab (Uca) burrows visible in the quadrat. NA was recorded if the plot was submerged in ~5cm or more of water (depending on light and visibility conditions) and burrows were not visible</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Number of fiddler crab (Uca) burrows visible in the quadrat. NA was recorded if the plot was submerged in ~5cm or more of water (depending on light and visibility conditions) and burrows were not visible</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Littoraria (#)</attributeName>
+          <attributeDefinition>Number of periwinkle snails present in the quadrat</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Number of periwinkle snails present in the quadrat</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Wrack cover (%)</attributeName>
+          <attributeDefinition>Percent cover of organic wrack (typically seagrass and seaweed accumulations); measurements started in 2014</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Percent cover of organic wrack (typically seagrass and seaweed accumulations); measurements started in 2014</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Wrack thickness (cm)</attributeName>
+          <attributeDefinition>Maximum raft thickness of organic wrack; no wrack thickness was recorded (NA) if no wrack was present</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Maximum raft thickness of organic wrack; no wrack thickness was recorded (NA) if no wrack was present</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Debris cover (%)</attributeName>
+          <attributeDefinition>Percent cover of non-organic debris (typically plastic or lumber); measurements started in 2017</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Percent cover of non-organic debris (typically plastic or lumber); measurements started in 2017</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Avicennia Damage index</attributeName>
+          <attributeDefinition>Index of hurricane-related damage to mangroves; no index score (NA) was recorded if no mangroves were present in the quadrat; measurements started in 2017 (ND prior to 2017)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Index of hurricane-related damage to mangroves; no index score (NA) was recorded if no mangroves were present in the quadrat; measurements started in 2017 (ND prior to 2017)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Avicennia pneumatophore height (cm)</attributeName>
+          <attributeDefinition>Maximum height; no height (NA) was recorded if the species was not present in the quadrat; measurements started in 2013 (ND prior to 2013); no data (ND) were recorded on a subset of plots in 2019 due to logistical constraints</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Maximum height; no height (NA) was recorded if the species was not present in the quadrat; measurements started in 2013 (ND prior to 2013); no data (ND) were recorded on a subset of plots in 2019 due to logistical constraints</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Avicennia germinans height (cm)</attributeName>
+          <attributeDefinition>Maximum height; no height (NA) was recorded if the species was not present in the quadrat</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Maximum height; no height (NA) was recorded if the species was not present in the quadrat</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Spartina alterniflora height (cm)</attributeName>
+          <attributeDefinition>Maximum height; no height (NA) was recorded if the plant was not present in the bounding area</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Maximum height; no height (NA) was recorded if the plant was not present in the bounding area</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Batis maritima height (cm)</attributeName>
+          <attributeDefinition>Maximum height; no height (NA) was recorded if the plant was not present in the bounding area</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Maximum height; no height (NA) was recorded if the plant was not present in the bounding area</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Sarcocornia spp height (cm)</attributeName>
+          <attributeDefinition>Maximum height; no height (NA) was recorded if the plant was not present in the bounding area</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Maximum height; no height (NA) was recorded if the plant was not present in the bounding area</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Schoenoplectus robustus height (cm)</attributeName>
+          <attributeDefinition>Maximum height; no height (NA) was recorded if the plant was not present in the bounding area</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Maximum height; no height (NA) was recorded if the plant was not present in the bounding area</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Monanthochloe littoralis height (cm)</attributeName>
+          <attributeDefinition>Maximum height; no height (NA) was recorded if the plant was not present in the bounding area</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Maximum height; no height (NA) was recorded if the plant was not present in the bounding area</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Lycium carolinianum  height (cm)</attributeName>
+          <attributeDefinition>Maximum height; no height (NA) was recorded if the plant was not present in the bounding area</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Maximum height; no height (NA) was recorded if the plant was not present in the bounding area</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Borrichia frutescens  height (cm)</attributeName>
+          <attributeDefinition>Maximum height; no height (NA) was recorded if the plant was not present in the bounding area</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Maximum height; no height (NA) was recorded if the plant was not present in the bounding area</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Distichlis spicata  height (cm)</attributeName>
+          <attributeDefinition>Maximum height; no height (NA) was recorded if the plant was not present in the bounding area</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Maximum height; no height (NA) was recorded if the plant was not present in the bounding area</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Suaeda linearis height (cm)</attributeName>
+          <attributeDefinition>Maximum height; no height (NA) was recorded if the plant was not present in the bounding area</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Maximum height; no height (NA) was recorded if the plant was not present in the bounding area</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Spartina patens height (cm)</attributeName>
+          <attributeDefinition>Maximum height; no height (NA) was recorded if the plant was not present in the bounding area</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Maximum height; no height (NA) was recorded if the plant was not present in the bounding area</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Strophostyles helvola height (cm)</attributeName>
+          <attributeDefinition>Maximum height; no height (NA) was recorded if the plant was not present in the bounding area</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Maximum height; no height (NA) was recorded if the plant was not present in the bounding area</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Iva frutescens height (cm)</attributeName>
+          <attributeDefinition>Maximum height; no height (NA) was recorded if the plant was not present in the bounding area</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Maximum height; no height (NA) was recorded if the plant was not present in the bounding area</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Avicennia pneumatophore CC (%)</attributeName>
+          <attributeDefinition>Percent cover in the 1m x 1m quadrat; measurements were recorded only in 2014 and 2015 (ND on other dates), CC = Canopy Cover</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Percent cover in the 1m x 1m quadrat; measurements were recorded only in 2014 and 2015 (ND on other dates), CC = Canopy Cover</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Avicennia germinans CC (%)</attributeName>
+          <attributeDefinition>Percent cover in the 1m x 1m quadrat; measurements were recorded only in 2014 and 2015 (ND on other dates), CC = Canopy Cover</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Percent cover in the 1m x 1m quadrat; measurements were recorded only in 2014 and 2015 (ND on other dates), CC = Canopy Cover</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Spartina alterniflora CC (%)</attributeName>
+          <attributeDefinition>Percent cover in the 1m x 1m quadrat; measurements were recorded only in 2014 and 2015 (ND on other dates), CC = Canopy Cover</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Percent cover in the 1m x 1m quadrat; measurements were recorded only in 2014 and 2015 (ND on other dates), CC = Canopy Cover</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Batis maritima CC (%)</attributeName>
+          <attributeDefinition>Percent cover in the 1m x 1m quadrat; measurements were recorded only in 2014 and 2015 (ND on other dates), CC = Canopy Cover</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Percent cover in the 1m x 1m quadrat; measurements were recorded only in 2014 and 2015 (ND on other dates), CC = Canopy Cover</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Sarcocornia spp CC (%)</attributeName>
+          <attributeDefinition>Percent cover in the 1m x 1m quadrat; measurements were recorded only in 2014 and 2015 (ND on other dates), CC = Canopy Cover</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Percent cover in the 1m x 1m quadrat; measurements were recorded only in 2014 and 2015 (ND on other dates), CC = Canopy Cover</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Schoenoplectus robustus CC (%)</attributeName>
+          <attributeDefinition>Percent cover in the 1m x 1m quadrat; measurements were recorded only in 2014 and 2015 (ND on other dates), CC = Canopy Cover</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Percent cover in the 1m x 1m quadrat; measurements were recorded only in 2014 and 2015 (ND on other dates), CC = Canopy Cover</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Monanthochloe littoralis CC (%)</attributeName>
+          <attributeDefinition>Percent cover in the 1m x 1m quadrat; measurements were recorded only in 2014 and 2015 (ND on other dates), CC = Canopy Cover</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Percent cover in the 1m x 1m quadrat; measurements were recorded only in 2014 and 2015 (ND on other dates), CC = Canopy Cover</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Lycium carolinianum CC (%)</attributeName>
+          <attributeDefinition>Percent cover in the 1m x 1m quadrat; measurements were recorded only in 2014 and 2015 (ND on other dates), CC = Canopy Cover</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Percent cover in the 1m x 1m quadrat; measurements were recorded only in 2014 and 2015 (ND on other dates), CC = Canopy Cover</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Borrichia frutescens CC (%)</attributeName>
+          <attributeDefinition>Percent cover in the 1m x 1m quadrat; measurements were recorded only in 2014 and 2015 (ND on other dates), CC = Canopy Cover</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Percent cover in the 1m x 1m quadrat; measurements were recorded only in 2014 and 2015 (ND on other dates), CC = Canopy Cover</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Distichlis spicata CC (%)</attributeName>
+          <attributeDefinition>Percent cover in the 1m x 1m quadrat; measurements were recorded only in 2014 and 2015 (ND on other dates), CC = Canopy Cover</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Percent cover in the 1m x 1m quadrat; measurements were recorded only in 2014 and 2015 (ND on other dates), CC = Canopy Cover</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Suaeda linearis CC (%)</attributeName>
+          <attributeDefinition>Percent cover in the 1m x 1m quadrat; measurements were recorded only in 2014 and 2015 (ND on other dates), CC = Canopy Cover</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Percent cover in the 1m x 1m quadrat; measurements were recorded only in 2014 and 2015 (ND on other dates), CC = Canopy Cover</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Spartina patens CC (%)</attributeName>
+          <attributeDefinition>Percent cover in the 1m x 1m quadrat; measurements were recorded only in 2014 and 2015 (ND on other dates), CC = Canopy Cover</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Percent cover in the 1m x 1m quadrat; measurements were recorded only in 2014 and 2015 (ND on other dates), CC = Canopy Cover</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Strophostyles helvola CC (%)</attributeName>
+          <attributeDefinition>Percent cover in the 1m x 1m quadrat; measurements were recorded only in 2014 and 2015 (ND on other dates), CC = Canopy Cover</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Percent cover in the 1m x 1m quadrat; measurements were recorded only in 2014 and 2015 (ND on other dates), CC = Canopy Cover</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Iva frutescens CC (%)</attributeName>
+          <attributeDefinition>Percent cover in the 1m x 1m quadrat; measurements were recorded only in 2014 and 2015 (ND on other dates), CC = Canopy Cover</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Percent cover in the 1m x 1m quadrat; measurements were recorded only in 2014 and 2015 (ND on other dates), CC = Canopy Cover</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Avicennia pneumatophore AC (%)</attributeName>
+          <attributeDefinition>Percent cover in the 1m x 1m quadrat; measurements were recorded only from 2014-2017 (ND on other dates), AC = Absolute Cover</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Percent cover in the 1m x 1m quadrat; measurements were recorded only from 2014-2017 (ND on other dates), AC = Absolute Cover</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Avicennia germinans AC (%)</attributeName>
+          <attributeDefinition>Percent cover in the 1m x 1m quadrat, AC = Absolute Cover</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Spartina alterniflora AC (%)</attributeName>
+          <attributeDefinition>Percent cover in the 1m x 1m quadrat, AC = Absolute Cover</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Batis maritima AC (%)</attributeName>
+          <attributeDefinition>Percent cover in the 1m x 1m quadrat, AC = Absolute Cover</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">95</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Sarcocornia spp AC (%)</attributeName>
+          <attributeDefinition>Percent cover in the 1m x 1m quadrat, AC = Absolute Cover</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Schoenoplectus robustus AC (%)</attributeName>
+          <attributeDefinition>Percent cover in the 1m x 1m quadrat, AC = Absolute Cover</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">35</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Monanthochloe littoralis AC (%)</attributeName>
+          <attributeDefinition>Percent cover in the 1m x 1m quadrat, AC = Absolute Cover</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">90</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Lycium carolinianum AC (%)</attributeName>
+          <attributeDefinition>Percent cover in the 1m x 1m quadrat, AC = Absolute Cover</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">2</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Borrichia frutescens AC (%)</attributeName>
+          <attributeDefinition>Percent cover in the 1m x 1m quadrat, AC = Absolute Cover</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">10</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Distichlis spicata AC (%)</attributeName>
+          <attributeDefinition>Percent cover in the 1m x 1m quadrat, AC = Absolute Cover</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">90</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Suaeda linearis AC (%)</attributeName>
+          <attributeDefinition>Percent cover in the 1m x 1m quadrat, AC = Absolute Cover</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">20</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Spartina patens AC (%)</attributeName>
+          <attributeDefinition>Percent cover in the 1m x 1m quadrat, AC = Absolute Cover</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">2</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Strophostyles helvola AC (%)</attributeName>
+          <attributeDefinition>Percent cover in the 1m x 1m quadrat, AC = Absolute Cover</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">2</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Iva frutescens AC (%)</attributeName>
+          <attributeDefinition>Percent cover in the 1m x 1m quadrat, AC = Absolute Cover</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">10</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Notes</attributeName>
+          <attributeDefinition>notes</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>notes</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>501</numberOfRecords>
+    </dataTable>
+  </dataset>
+</eml:eml>
