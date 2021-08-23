@@ -2,7 +2,7 @@ name: scheduled
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: '*/15 * * * *'
     
 jobs:
   update_package:
@@ -24,7 +24,20 @@ jobs:
         with:
           r-version: ${{ matrix.config.r }}
           
+      - name: Cache R packages
+        id: cache
+        uses: actions/cache@v2
+        with:
+          path: ${{ env.R_LIBS_USER }}
+          key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
+          restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
+            
+            
+          
       - name: Install dependencies
+      
+        if: steps.cache.outputs.cache-hit != 'true'
+      
         run: |
           install.packages('remotes')
           install.packages('stringr')
@@ -42,12 +55,5 @@ jobs:
             EDI_USER: ${{secrets.EDI_USERNAME}}
             EDI_PASS: ${{secrets.EDI_PASSWORD}}
         run: |
-          source("R/publish_to_EDI.R")
-        shell: Rscript {0}
-
-      - name: Session info
-        run: |
-          options(width = 100)
-          pkgs <- installed.packages()[, "Package"]
-          sessioninfo::session_info(pkgs, include_base = TRUE)
+          source("R/EDI_update.R")
         shell: Rscript {0}
