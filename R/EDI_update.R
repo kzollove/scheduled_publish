@@ -47,8 +47,8 @@ tryCatch({
   print(paste("Updating data with pnum:", new_pnum))
   EDIutils::api_update_data_package(
     path = eml_path,
-    package.id = new_doi,
-    environment = "staging",
+    package.id = new_pnum,
+    environment = env,
     user.id = usern,
     user.pass = passw,
     affiliation = "EDI"
