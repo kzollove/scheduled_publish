@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<eml:eml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 ../../../../eml/xsd/eml.xsd"
- xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2"
- xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" packageId="edi.425.1" system="edi">
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.425.3" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 ../../../../eml/xsd/eml.xsd" system="edi">
   <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
     <allow>
       <principal>uid=kzollovenecek,o=EDI,dc=edirepository,dc=org</principal>
@@ -65,7 +62,7 @@
     forb-dominated habitats to taller, woody vegetation. Our goal was to
     quantify the bottom-up effects of mangrove woody encroachment into
     coastal wetlands on associated plant and epifaunal assemblages. In
-    2012, we established several large (&gt; 20 ha) survey areas at
+    2012, we established several large (&amp;gt; 20 ha) survey areas at
     tidal wetland sites with or without black mangroves (Avicennia
     germinans) on the Texas (USA) coast in the Gulf of Mexico, an area
     highly susceptible to mangrove encroachment. Starting in 2012, we
@@ -1318,7 +1315,6 @@
           <measurementScale>
             <dateTime>
               <formatString>mm/dd/yyyy</formatString>
-              <dateTimeDomain/>
             </dateTime>
           </measurementScale>
         </attribute>
